@@ -1,0 +1,255 @@
+/*specification*/
+body {
+	font: 400 15px 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #000;
+	letter-spacing: 0.05em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	margin: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn {
+	display: block;
+	border-radius: 50px;
+	font-weight: 800;
+	font-size: 16px;	
+	text-align: center;
+	margin: 0 auto;
+	transition: background 0.5s ease;
+	padding: 18px 0px;
+}
+
+img {
+	display: block;
+	min-width: 100%;
+	object-fit: cover;
+}
+
+section {
+	padding: 72.5px 0;
+}
+
+/*header*/
+
+.header {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(36, 32, 84, 0.23) 100%), url('../img/Desktop_1.png') no-repeat center top / cover;
+	color: #fff;
+	text-align: center;
+	padding: 48px 0 58.15px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.offer {
+	margin-top: 220px;
+
+}
+
+.offer__dream {
+	text-transform: uppercase;
+	background: #FFFFFF;
+	border-radius: 78px;
+	color: #000;
+	margin: 0 auto;
+	font-weight: 800;
+	padding: 8px 17px;
+}
+
+.offer__title {
+	margin: 32px 0px 24px;
+	font-size: 60px;
+	letter-spacing: 0.145em;
+}
+
+.offer__text {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 21px 0px;
+}
+
+.btn_offer {
+	margin: 24px auto;
+	background-color: #FF367E;
+	max-width: 247px;
+	color: #fff;
+}
+
+.btn_offer:hover {
+	background: #CE1658;
+}
+
+.arrow-down {
+	background: url('../img/arrow-down.png');
+	width: 23px;
+	height: 29px;
+	display: block;
+	margin: 259px auto 0;
+	transition: opacity 0.5s ease;
+	opacity: 0.5;
+}
+
+.arrow-down:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+/*available routes*/
+
+.routes {
+	padding-top: 145px;
+}
+
+.available-routes {
+
+}
+
+.historical-center {
+	background: #FFEFF5 url('../img/centrOdessa 1.jpg') no-repeat right top;
+	padding: 109px 73px;
+}
+
+.historical-center__content {
+	max-width: 521px;
+}
+
+.historical-center__number {
+	color: #789AA0;
+	font-size: 17px;
+	letter-spacing: 0.03em;
+	margin-bottom: 20px;	
+	display: block;
+}
+
+.historical-center__title {
+	margin-bottom: 40px;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.historical-center__description {}
+
+.historical-center__text {
+	margin-bottom: 24px;
+	font-weight: 500;
+	line-height: 23px;
+}
+
+.next-route {
+	background: url('../img/arrow-next.svg');
+	display: block;
+	width: 68px;
+	height: 20px;
+	margin-top: 48px;
+	transition: opacity 0.5s ease;
+	opacity: 0.5;	
+}
+
+.next-route:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+
+.btn_route {
+	border: 1px solid #CF6C23;
+	margin-top: 90px;
+	color: #CF3823;
+	max-width: 332px;
+}
+
+.btn_route:hover {
+	background: #FF367E;
+	transition: background 0.5s ease, color 0.5s ease;
+	color: #fff;
+}
+
+.section-title {
+	color: #304041;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 98px;
+}
+
+.story-content {
+	background: #F1F1F5 url('../img/photo1.jpg')no-repeat right center / contain;
+	padding: 152px 0;
+}
+
+ul {
+	max-width: 401px;
+}
+
+.story-content-list__item {
+	font-size: 16px;
+	width: 401px;
+	line-height: 1.01em;
+	margin-bottom: 64px;
+}
+
+.story-content-list__item:last-child {
+	margin-bottom: 0;
+}
+
+.story-content-list__item:before {
+	content:'';
+	display: block;
+	width: 65px;
+	height: 7px;
+	background: #4EB1B6;
+	border-radius: 23px;
+	margin-bottom: 20px;	
+
+}
+
+/* footer*/
+
+.footer-content {
+	display: flex;
+	padding: 110px 0 120px;
+}
+
+.footer-content__text {
+	font-size: 14px;
+	color: #6E7187;
+	margin-right: 72px;
+}
+
+
+
+
+
